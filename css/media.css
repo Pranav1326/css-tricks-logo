@@ -1,0 +1,44 @@
+@media only screen and (max-width: 720px){
+    .box{
+        width: 34.375rem;   /* 550px */
+        height: 15.625rem;  /* 250px */
+    }
+    .box::before{
+        width: 33.75rem;    /* 540px */
+        height: 15rem;      /* 240px */
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .box{
+        width: 28.125rem;   /* 450px */
+        height: 10.375rem;  /* 166px */
+    }
+    .box::before{
+        width: 27.5rem;    /* 440px */
+        height: 9.75rem;      /* 156px */
+    }
+    .box h1{
+        font-size: 1.5rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 480){
+    .box{
+        width: 26.125rem;   /* 450px */
+        height: 10.375rem;  /* 166px */
+    }
+    .box::before{
+        width: 25.5rem;    /* 440px */
+        height: 9.75rem;      /* 156px */
+    }
+    .box h1{
+        font-size: 1.5rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+}
